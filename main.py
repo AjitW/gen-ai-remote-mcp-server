@@ -6,6 +6,7 @@ import tempfile
 TEMP_DIR = tempfile.gettempdir()
 DB_PATH = os.path.join(TEMP_DIR, "expenses.db")
 CATEGORIES_PATH = os.path.join(os.path.dirname(__file__), "categories.json")
+#test
 
 print(f"Database path: {DB_PATH}")
 
